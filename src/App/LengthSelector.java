@@ -22,25 +22,25 @@ public class LengthSelector {
             vowels.add(v.vowels());
             vowels.add(1);
         }
-        if (length >= 3 && length < 6) {
+        else if (length >= 3 && length < 6) {
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(2);
         }
-        if (length >= 6 && length < 9) {
+        else if (length >= 6 && length < 9) {
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(3);
         }
-        if (length >= 9 && length < 12) {
+        else if (length >= 9 && length < 12) {
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(4);
         }
-        if (length == 12) {
+        else if (length == 12) {
             vowels.add(v.vowels());
             vowels.add(v.vowels());
             vowels.add(v.vowels());
