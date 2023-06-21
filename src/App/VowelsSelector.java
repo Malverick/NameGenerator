@@ -23,6 +23,12 @@ public class VowelsSelector {
                 System.out.println("Vowel Error");
                 break;
         }
+        /*
+        * String[] vowelArray = new Array("a", "e", "i", "o", "u", "y");
+        * rand = new Random().nextInt(5);
+        * 
+        *
+        * */
         return "Error";
     }
 }
