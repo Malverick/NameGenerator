@@ -12,7 +12,7 @@ public class LengthSelector {
         if (length < 2 || length == 0) {
             length();
             System.out.println("Length too short");
-            //This needs fixing
+            //This needs fixing.
         }
         return length;
     }
