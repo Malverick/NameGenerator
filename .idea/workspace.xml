@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68b916af-7820-478b-9465-29f07afc6746" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NameGenerator/App/CharSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NameGenerator/App/CharSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/LengthSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/LengthSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/VowelsSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/VowelsSelector.java" afterDir="false" />
-    </list>
+    <list default="true" id="68b916af-7820-478b-9465-29f07afc6746" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
