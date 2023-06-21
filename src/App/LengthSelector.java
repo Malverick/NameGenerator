@@ -8,11 +8,13 @@ public class LengthSelector {
 
 
     public int length() {
-        int longth = new Random().nextInt(12);
-        if (longth < 2 || longth == 0) {
+        int length = new Random().nextInt(12);
+        if (length < 2 || length == 0) {
             length();
+            System.out.println("Length too short");
+            //This needs fixing
         }
-        return longth;
+        return length;
     }
 
     public List<String> obtainVowels(int length) {

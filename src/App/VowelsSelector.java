@@ -5,30 +5,13 @@ import java.util.Random;
 public class VowelsSelector {
 
     public String vowels() {
-        int rand = new Random().nextInt(5);
-        switch (rand) {
-            case 0:
-                return "a";
-            case 1:
-                return "e";
-            case 2:
-                return "i";
-            case 3:
-                return "o";
-            case 4:
-                return "u";
-            case 5:
-                return "y";
-            default:
-                System.out.println("Vowel Error");
-                break;
+        try {
+            int rand = new Random().nextInt(5);
+            String[] vowelArray = {"a", "e", "i", "o", "u", "y"};
+            return vowelArray[rand];
+        } catch (Exception e){
+            return "vowel selection failed";
         }
-        /*
-        * String[] vowelArray = new Array("a", "e", "i", "o", "u", "y");
-        * rand = new Random().nextInt(5);
-        * 
-        *
-        * */
-        return "Error";
+
     }
 }
