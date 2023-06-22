@@ -8,12 +8,7 @@ public class LengthSelector {
 
 
     public int length() {
-        int length = new Random().nextInt(12);
-        if (length < 2 || length == 0) {
-            length();
-            System.out.println("Length too short");
-            //This needs fixing.
-        }
+        int length = new Random().nextInt(12-1) + 1;
         return length;
     }
 
