@@ -1,15 +1,27 @@
 package App;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class LengthSelector {
 
+    int length;
 
     public int length() {
-        int length = new Random().nextInt(12-1) + 1;
+        length = new Random().nextInt(12-1) + 1;
         return length;
+//        BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+//        try {
+//            length = Integer.parseInt(br.readLine());
+//            return length;
+//        }
+//        catch (Exception e){
+//            System.out.println("Input a number, application ending.");
+//            return 2;+
+//        }
     }
 
     public List<String> obtainVowels(int length) {
@@ -48,3 +60,9 @@ public class LengthSelector {
         return vowels;
     }
 }
+/*
+Add random number of vowels
+Put entire length selector inside a for loop
+take in a use generated length (And optional random lengths) to determine duration of loop
+
+ */
