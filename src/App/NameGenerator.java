@@ -8,8 +8,8 @@ public class NameGenerator {
         LengthSelector len = new LengthSelector();
         int length = len.length();
         List<String> vowelValues = len.obtainVowels(length);
-        int lastIndex = Integer.valueOf((vowelValues.size() - 1));
-        vowelValues.remove(lastIndex);
+//        int lastIndex = Integer.valueOf(vowelValues.size() - 1);
+//        vowelValues.remove(lastIndex);
         CharSelector chars = new CharSelector();
         List<String> charValues = chars.character(length, vowelValues.size());
 
